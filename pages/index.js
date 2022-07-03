@@ -17,7 +17,6 @@ export default function Home() {
       <h2>Welcome to NextJs </h2>
       <h4>Navigate to : <Link href="/me">Me</Link></h4> 
       <h4>Go to Post page : <Link href="posts">Posts </Link></h4>
-      <h4>Go to Dynamic Page : <Link href="dynamic">Dynamic </Link></h4>
       <Image 
         src={nextImage}
         alt="Picture of the author"
