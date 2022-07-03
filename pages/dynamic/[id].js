@@ -1,8 +1,9 @@
 import React from 'react'
 import {useRouter} from 'next/router'
 export default function id() {
- const  {query}  = useRouter();
+  const router = useRouter();
+  const { id } = router.query;
   return (
-    <div>Hello Post {query.id} </div>
+    <div>Hello Post {id} </div>
   )
 }
